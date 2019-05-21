@@ -2,6 +2,9 @@
   color: white;
 }
 
+body {
+  font-family: "Roboto";
+}
 .edit,
 .setting,
 .update {
@@ -12,13 +15,13 @@
 }
 
 .edit {
-  background-position: -1px -0px;
+  background-position: 0px -0px;
 }
 .setting {
-  background-position: -1px -28px;
+  background-position: 0px -28px;
 }
 .update {
-  background-position: -1px -56px;
+  background-position: 0px -56px;
 }
 
 icon a {
