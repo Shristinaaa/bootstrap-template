@@ -4,6 +4,7 @@
 
 body {
   font-family: "Roboto";
+  background: #eef1f3;
 }
 .edit,
 .setting,
@@ -30,4 +31,8 @@ icon a {
 
 header h1 {
   transform: scale(1, 1.5);
+}
+
+.main {
+  background: linear-gradient(to bottom, #f8f8f8, #d4d4d4);
 }
