@@ -23,8 +23,11 @@
     <header class="clearfix py-4 px-3">
       <img src="brand.png" class="float-left" />
       <h1 class="float-left ml-2">LIFERAY.</h1>
-      <button class="btn btn-header bg-dark float-right">
-        Bootstrap Demo
+      <button class="btn btn-header bg-dark float-right px-2 py-1">
+        <img src="logo.png" class="mr-2 mt-3" />
+        <h3 class="float-right">
+          <small class="font-weight-bold">Bootstrap Demo</small>
+        </h3>
       </button>
     </header>
 
@@ -36,19 +39,22 @@
       <div class="row mt-3">
         <div class="col-sm-8">
           <div class="container border rounded">
-            <header class="navbar">
-              Web Content Display
-              <a class="nav-right">
-                <i class="fas fa-wrench mr-1"></i>
-                <i class="fas fa-minus mr-1"></i>
-                <i class="fas fa-plus mr-1"></i>
-                <i class="fas fa-times mr-1"></i>
-              </a>
+            <header class="clearfix border rounded mt-2 bg-light">
+              <img src="content.png" class="float-left px-2 mt-2" />
+              <h6 class="float-left font-weight-bold mt-2">
+                Web Content Display
+              </h6>
+              <icon class="float-right pt-2 mr-1">
+                <a href="#"><i class="fas fa-wrench mr-2"></i></a>
+                <a href="#"><i class="fas fa-minus mr-2"></i></a>
+                <a href="#"><i class="fas fa-plus mr-2"></i></a>
+                <a href="#"><i class="fas fa-times mr-2"></i></a>
+              </icon>
             </header>
 
-            <div class="container1 mt-2">
+            <div class="container1 mt-5">
               <article>
-                <h3>This is the main content</h3>
+                <h3 class="font-weight-bold">This is the main content</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -59,9 +65,8 @@
                   tincidunt vitae. Sollicitudin nibh sit amet commodo nulla
                   facilisi nullam vehicula ipsum. Ultricies integer quis auctor
                   elit sed vulputate mi sit. Morbi tincidunt ornare massa eget
-                  egestas.
-                </p>
-                <p>
+                  egestas.<br />
+
                   Turpis cursus in hac habitasse platea. Amet consectetur
                   adipiscing elit duis tristique sollicitudin. Sed odio morbi
                   quis commodo odio. Lectus proin nibh nisl condimentum id
@@ -77,7 +82,9 @@
                 </p>
 
                 <icon>
-                  <img src="icons.png" />
+                  <a href="#" class="edit"></a>
+                  <a href="#" class="setting"></a>
+                  <a href="#" class="update"></a>
                 </icon>
               </article>
             </div>
@@ -86,21 +93,23 @@
 
         <div class="col-sm-4">
           <div class="container border rounded">
-            <div class="container my-1">
-              <header class="navbar">
-                Web Content Display
-                <a class="nav-right">
-                  <i class="fas fa-wrench mr-1"></i>
-                  <i class="fas fa-minus mr-1"></i>
-                  <i class="fas fa-plus mr-1"></i>
-                  <i class="fas fa-times"></i>
-                </a>
-              </header>
-            </div>
+            <header class="clearfix border rounded mt-2 bg-light">
+              <img src="content.png" class="float-left px-2 mt-2" />
 
-            <div class="container1 mt-3">
+              <h6 class="float-left mt-2 font-weight-bold">
+                Web Content Display
+              </h6>
+              <icon class="float-right pt-2 mr-1">
+                <a href="#"><i class="fas fa-wrench mr-2"></i></a>
+                <a href="#"><i class="fas fa-minus mr-2"></i></a>
+                <a href="#"><i class="fas fa-plus mr-2"></i></a>
+                <a href="#"><i class="fas fa-times mr-2"></i></a>
+              </icon>
+            </header>
+
+            <div class="container1 mt-5">
               <article>
-                <h3>Sidebar</h3>
+                <h3 class="font-weight-bold">Sidebar</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -111,14 +120,16 @@
                   tincidunt vitae. Sollicitudin nibh sit amet commodo nulla
                   facilisi nullam vehicula ipsum. Ultricies integer quis auctor
                   elit sed vulputate mi sit. Morbi tincidunt ornare massa eget
-                  egestas.Turpis cursus in hac habitasse. Lorem ipsum dolor sit
-                  amet, consectetur adipisicing elit. Dignissimos repellat
-                  minima sit temporibus laudantium expedita, mollitia error
-                  animi autem repellendus quas aliquid aut ipsa eaque magni
-                  veritatis nobis cumque? Consectetur.
+                  egestas. Lorem ipsum dolor sit, amet consectetur adipisicing
+                  elit. At recusandae maiores natus asperiores itaque, accusamus
+                  excepturi! Dolor quia placeat necessitatibus, sit illum porro
+                  doloremque, cumque doloribus, libero esse ratione sed!
                 </p>
+
                 <icon>
-                  <img src="icons.png" />
+                  <a href="#" class="edit"></a>
+                  <a href="#" class="setting"></a>
+                  <a href="#" class="update"></a>
                 </icon>
               </article>
             </div>
@@ -126,6 +137,10 @@
         </div>
       </div>
     </div>
+
+    <footer class="float-right my-3 mr-3">
+      Powered by <a href="#">LIFERAY</a>
+    </footer>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

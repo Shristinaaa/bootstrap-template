@@ -1,4 +1,30 @@
 .btn-header {
   color: white;
-  font-weight: bold;
+}
+
+.edit,
+.setting,
+.update {
+  display: inline-block;
+  background: url("png.png") no-repeat;
+  width: 22px;
+  height: 27px;
+}
+
+.edit {
+  background-position: -1px -0px;
+}
+.setting {
+  background-position: -1px -28px;
+}
+.update {
+  background-position: -1px -56px;
+}
+
+icon a {
+  color: inherit;
+}
+
+header h1 {
+  transform: scale(1, 1.5);
 }
